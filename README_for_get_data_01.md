@@ -6,7 +6,7 @@
 
 > **PROBLEMES** : Vitesse beaucoup trop lente => besoin d'optimiser la vitesse en consultant le fichier "Faster Requests" (dans 05.Scraping) ou le dossier "06. Concurrency". J'ai essayé d'améliorer la vitesse avec **ThreadPoolExecutor**, mais ça plante, à mon avis les .get ou .find_elements se lancent avant que la page soit chargée, DONC besoin de quelqu'un qui se renseigne sur les commandes **Wait** avant nos requetes.
 
-* Quand on aura régler le problème de la vitesse, viendra le problème du **CAPTCHA**
+* Quand on aura réglé le problème de la vitesse, viendra le problème du **CAPTCHA**
 
 > Voir de la doc dessus.
 
