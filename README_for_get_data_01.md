@@ -13,3 +13,6 @@
 * Ensuite viendra le moment de clean les données extraites pour prendre juste celles requises dans le Readme.
 
 * Ensuite viendra la partie ou on utilisera panda ou csv pour faire un tableau excel. (Rapide et facile).
+
+> HTTPX doit marcher avec Async. BeautifulSoup pas obligé (méthode alternative)
+
