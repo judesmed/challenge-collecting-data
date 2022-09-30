@@ -4,7 +4,7 @@
 * Extracte toutes les URLs des 2 premières pages de recherche Immoweb.
 * Extracte toutes les données sur chaque page, à partir des URLs extraites, les retourne dans une liste de dictionnaires (1 dico par page). 
 
-> **PROBLEMES** : Vitesse beaucoup trop lente => besoin d'optimiser la vitesse en consultant le fichier "Faster Requests" (dans 05.Scraping) ou le dossier "06. Concurrency". J'ai essayé d'améliorer la vitesse avec **ThreadPoolExecutor**, mais ça plante, à mon avis les .get ou .find_elements se lancent avant que la page soit chargée, DONC besoin de quelqu'un qui se renseigne sur les commandes **Wait** avant nos requetes.
+> **PROBLEMES** : Vitesse beaucoup trop lente => besoin d'optimiser la vitesse en consultant le fichier "Faster Requests" (dans 05.Scraping) ou le dossier "06. Concurrency". J'ai essayé d'améliorer la vitesse avec **ThreadPoolExecutor**, mais ça plante, à mon avis les .get ou .find_elements se lancent avant que la page soit chargée, DONC besoin de quelqu'un qui se renseigne sur les commandes **Wait** avant nos requetes. Aussi, chercher pour remplacer les **.get()** par des **Sessions()**, ça pourrait accelérer le processus.
 
 * Quand on aura réglé le problème de la vitesse, viendra le problème du **CAPTCHA**
 
