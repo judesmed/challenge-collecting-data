@@ -1,3 +1,5 @@
+import re
+
 def get_data_from_url(url):
     url_content_dic = {}
     house_subtypes = ['house','villa', 'manor house','pavilion','other properties' 'mansion','castel','chalet','farmhouse','exceptional property','mixed-use building', 'town-house','apartment block','bungalow']
